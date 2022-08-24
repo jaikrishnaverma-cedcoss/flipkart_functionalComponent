@@ -1,0 +1,165 @@
+
+*{
+margin:0px;
+padding: 0px;  
+}
+.App {
+  text-align: center;
+  width: 100%;
+}
+.rowbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+input:focus{
+ border: none;
+}
+.row{
+  display: flex;
+  align-items: center;
+}
+.prod img{
+  width: 65px;
+}
+.absolute{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 3;
+}
+.absolute button{
+  border: none;
+    background: white;
+    font-size: 60px;
+    padding: 15px;
+    
+}
+.card{
+  margin:5px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  padding-top: 1%;
+}
+.card img{
+  width: 100px;
+  min-height: 100px;
+}
+.pp1
+{
+color: green ;
+font-size: 16px;
+}
+.pp12{
+  color: rgb(146, 146, 146);
+  font-size: 15px;
+}
+.card p{
+  margin:3px 0px;
+}
+.card h5
+{
+  margin-top: 5px;
+}
+.headhead{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vall{
+  background-color: #2874f0;
+  border:none;
+  border-radius: 2px;
+  padding: 12px;
+  color: white;
+}
+
+/* .slider{
+  overflow: hidden;
+  height: 250px;
+}
+.slider div{
+  float: left;
+  width: 20%;
+}
+.slider img{
+  width: 100%;
+  float: left;
+}
+.slider{
+  position: relative;
+  width: 500%;
+  margin: 0px;
+  left: 0;
+  animation: 20s slideImage infinite;
+}
+@keyframes slideImage{
+  0%{
+    left: 0%;
+  }
+  10%{
+    left: 0%;
+  }
+  12%{
+    left: -100%;
+  }
+  22%{
+    left: -100%;
+  }
+  24%{
+    left: -200%;
+  }
+  34%{
+    left: -200%;
+  }
+  36%{
+    left: -300%;
+  }
+  46%{
+    left: -300%;
+  }
+  48%{
+    left: -400%;
+  }
+  58%{
+    left: -400%;
+  }
+  60%{
+    left: -300%;
+  }
+  70%{
+    left: -300%;
+  }
+  72%{
+    left: -200%;
+  }
+  82%{
+    left: -200%;
+  }
+  84%{
+    left: -100%;
+  }
+  94%{
+    left: -100%;
+  }
+  96%{
+    left: 0%;
+  }
+
+
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
